@@ -15,6 +15,7 @@ app.get('/', (req, res) => {
 app.use('/products', productsRouter);
 
 
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 }) 
